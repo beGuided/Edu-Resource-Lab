@@ -23,14 +23,14 @@
     <!---------------------------->
 </head>
 
-<body>
+<body id="main-bg" class="main-background">
     <header>
         <!-- nav section start -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark p-3 fixed-top bg-success">
+        <nav id="nav--bg" class="navbar navbar-expand-lg navbar-ligght p-3 fixed-top bg-successm nav-bg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="img-fluid logo"
-                        src="/assets/images/uniben-white.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="/assets/images/uniben.png"
+                        alt="logo"></a>
 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,10 +52,7 @@
                             <a class="nav-link active" aria-current="page" href="course_form.html">COURSE FORM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="our-team.html">NCE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">DEGREE</a>
+                            <a class="nav-link active" aria-current="page" href="course-materials.html">COURSE MATERIALS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
@@ -67,7 +64,7 @@
                     </ul>
                     <form class="d-flex">
                         <a href="#" class="btn btn-dark mx-1">Register</a>
-                        <!-- <a href="#" class="btn btn-outline-warning mx-1">Login</a> -->
+                        <a id="dark-mode" class="btn btn-outline-warning mx-1">dark mode</a>
                         <!-- <button class="btn btn-outline-warning mx-1">Register</button>
                         <button class="btn btn-outline-success mx-1">Log in</button> -->
                     </form>
@@ -125,30 +122,150 @@
     </section>
 
 
-    <div class="container-fluid mt-5 mb-5">
-        <div class="container">
-            <div class="container text-center mb-5">
-                <h2 class="text-dark subtitle">WHY USE EDURESOURCELAB</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus?</p>
-            </div>
-            <div class="row why-us">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
-                            <img class="why-img" src="/assets/images/uniben.png" alt="">
-                        </div>
-                        <div class="col-8">
-                            <div class="col-12">
-                                <h4>Hello there!</h4>
+
+
+    <div class="container-fluid">
+
+
+        <section>
+            <div class="container-fluid mt-5 mb-5">
+                <div class="container p-5">
+                    <div class="container heading-box text-center">
+                        <h2 class="head-title text-center">
+                            <p >WHY USE</p> <b>EDURESOURCELAB</b>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus?</p>
+                    </div>
+                    <div class="row why-us text-center">
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row horizontal-align">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img class="why-img img-fluid" src="/assets/images/uniben.png" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 info-box">
+                                    <div class="col-12 why-title">
+                                        <h4>Generate Course-form</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-12">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate.</p>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row horizontal-align">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img class="why-img img-fluid" src="/assets/images/uniben.png" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 info-box">
+                                    <div class="col-12 why-title">
+                                        <h4>Course Materials</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row horizontal-align">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img class="why-img img-fluid" src="/assets/images/uniben.png" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 info-box">
+                                    <div class="col-12 why-title">
+                                        <h4>Time Efficiency</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row horizontal-align">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img class="why-img img-fluid" src="/assets/images/uniben.png" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 info-box">
+                                    <div class="col-12 why-title">
+                                        <h4>24hr Support</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <section>
+            <div class="container-fluid mt-5 mb-5">
+                <div class="container p-5">
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section>
+            <div style="display: none;" class="container-fluid course-box m-auto">
+                <div class="course-select-box text-center">
+                    <h5 class="mb-5">Please select your school</h5>
+                    <div class="container row">
+                        <div class="col-2">
+                            <div class="course-form-select select-box">
+                                <img src="/assets/images/FCET.png" alt="">
+                                <h6>NCE</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="course-form-select select-box">
+                                <img src="/assets/images/uniben.png" alt="">
+                                <h6>UNIBEN</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </section>
+
     </div>
 
 
@@ -170,73 +287,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-    <section>
-        <div style="display: none;" class="container-fluid course-box m-auto">
-            <div class="course-select-box text-center">
-                <h5 class="mb-5">Please select your school</h5>
-                <div class="container row">
-                    <div class="col-2">
-                        <div class="course-form-select select-box">
-                            <img src="/assets/images/FCET.png" alt="">
-                            <h6>NCE</h6>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="course-form-select select-box">
-                            <img src="/assets/images/uniben.png" alt="">
-                            <h6>UNIBEN</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script> -->
-
     <script src="js/jquery-1.7.1.js"></script>
-    <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

@@ -16,10 +16,12 @@
 :root {
     --header-height: 3rem;
     /* ========= colors =========== */
-    --first-color: #020020;
+    --first-color: #ffffff;
     --title-color: #198754;
+    --support-color: #ffc107;
     --text-color: #000000;
-    --body-color: rgb(0, 0, 0);
+    --degree-color: #944196;
+    --body-color: rgb(31, 30, 30);
     /* ======== typography ============ */
     --body-font: poppinsregular;
     --biggest-font-size: 2.25rem;
@@ -139,12 +141,19 @@ img {
 /*================= menu media query ====================*/
 
 nav .nav-link:hover {
-    background-color: rgb(4, 39, 4);
+    background-color: var(--title-color);
     border-radius: 5px;
+    color: var(--first-color);
 }
 
 nav .nav-link, a {
     font-family: var(--body-font);
+    color: var(--title-color);
+}
+
+.nav-bg {
+    background-color: var(--first-color);
+    box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.129);
 }
 
 /* .nav--link, .nav--logo, .nav--toggle{
@@ -211,7 +220,7 @@ nav .nav-link, a {
 
 .btn p {
     padding: 3px var(--m-1);
-    color: white;
+    color: var(--first-color);
 }
 
 .btn-outline {
@@ -306,12 +315,12 @@ nav .nav-link, a {
 }
 
 thead {
-    color: white;
+    color: var(--first-color);
     background: black;
 }
 
 thead tr p {
-    color: white;
+    color: var(--first-color);
     font-size: 14px;
 }
 
@@ -357,7 +366,11 @@ tbody :nth-child(even) {
 }
 
 .custom-m {
-    margin-top: 100px;
+    margin-top: 180px;
+}
+
+.custom-m2 {
+    margin-top: 130px;
 }
 
 .course-btn {
@@ -393,7 +406,6 @@ tbody :nth-child(even) {
 
 .reg-form input {
     margin: 5px 10px;
-    display: blockj;
     border-radius: 8px;
     padding: 9px;
     border: 1px solid #dddada;
@@ -450,7 +462,7 @@ tbody :nth-child(even) {
     padding: 10px;
     border-radius: 8px;
     background-color: #198754;
-    color: white;
+    color: var(--first-color);
 }
 
 .t-size {
@@ -553,7 +565,7 @@ tbody :nth-child(even) {
     width: 120px;
     border-radius: 8px;
     background-color: #198754;
-    color: white;
+    color: var(--first-color);
 }
 
 #photo {
@@ -629,26 +641,6 @@ tbody :nth-child(even) {
     width: 80%;
 }
 
-.select-box {
-    width: 50%;
-    border-radius: 8px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 4px 3px 50px rgba(0, 0, 0, 0.199);
-    cursor: pointer;
-}
-
-.select-box:hover {
-    background-color: #7fd4ad;
-    transition: ease-in-out 0.4s;
-}
-
-.select button {
-    background-color: transparent;
-    border: transparent;
-    width: 300px;
-}
-
 /* Home page css */
 
 .logo {
@@ -674,13 +666,13 @@ tbody :nth-child(even) {
     opacity: 0.1;
     object-fit: cover;
 }
+
 /* .vid video {
     max-width: 100%;
     max-width: 300%;
     opacity: 0.1;
     object-fit: fill;
 } */
-
 
 .main-page-box {
     height: 100vh;
@@ -692,14 +684,11 @@ tbody :nth-child(even) {
     top: 50px;
 }
 
-
-
-
 /* ======================================== */
+
 /* slide animation */
 
-
-.text-1, .text-2, .text-3{
+.text-1, .text-2, .text-3 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -711,6 +700,7 @@ tbody :nth-child(even) {
     animation-duration: 60s;
     animation-iteration-count: infinite;
 }
+
 @keyframes text-1 {
     0%, 5.3% {
         opacity: 0;
@@ -758,6 +748,7 @@ tbody :nth-child(even) {
 .text-3 {
     animation-name: text-3;
 }
+
 .img-1, .img-2, .img-3 {
     position: absolute;
     opacity: 0.08;
@@ -825,7 +816,7 @@ tbody :nth-child(even) {
 
 .small {
     margin-top: -12px;
-    color: rgb(255, 255, 255);
+    color: var(--first-color);
     font-size: 18px;
     font-weight: lighter;
 }
@@ -834,7 +825,7 @@ tbody :nth-child(even) {
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: var(--first-color);
 }
 
 .slide-title {
@@ -842,17 +833,172 @@ tbody :nth-child(even) {
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 80px;
-    color: rgb(255, 255, 255);
+    color: var(--first-color);
     font-weight: bolder;
 }
-.why-us{
+
+.why-us {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.why-img {
+    width: 80%;
+}
+
+.horizontal-align {
+    align-items: center;
+}
+
+.info-box {
+    text-align: left;
+}
+
+.info-box p {
+    color: var(--body-color);
+}
+
+.heading-box p {
+    color: var(--first-color);
+}
+
+.head-title {
+    color: var(--title-color)
+}
+
+.head-title p {
+    font-size: 20px;
+    margin-bottom: -1px;
+    color: var(--title-color);
+}
+
+.why-title {
+    color: var(--title-color);
+}
+
+.search input {
+    width: 30%;
+}
+
+.search-box {
+    background-color: #198754;
     position: relative;
 }
-.why-img{
+
+.search-box input, .search-box a {
     position: absolute;
-    top: 0px;
-    left: 20px;
-    width: 15%;
+}
+
+.search-box a {
+    right: 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.search-box input {
+    text-align: center;
+    right: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.select-contain {
+    height: 100px;
+}
+
+.select-box p {
+    color: var(--support-color);
+}
+
+.select-contain a {
+    color: var(--support-color);
+    text-decoration: none;
+}
+
+.select-box {
+    background-color: white;
+}
+.select-shape {
+    width: 50%;
+    height: 100%;
+}
+.select-shape p{
+    font-size: inherit;
+}
+.d-select-shape {
+    width: 80%;
+    height: 100%;
+}
+.download-select-shape{
+}
+.select-shape, .d-select-shape, .download-select-shape {
+    border-radius: 8px;
+    background-color: rgb(248, 246, 246);
+    padding: 20px;
+    margin: 9px;
+    box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+}
+
+.select-box:hover {
+    background-color: var(--title-color);
+    color: #ffffff;
+    transition: ease-in-out 0.3s;
+}
+
+.select button {
+    background-color: transparent;
+    border: transparent;
+    width: 300px;
+}
+
+.selection-title {
+    color: var(--support-color);
+}
+
+.rowy :nth-child(2) {
+    margin-left: -150px;
+}
+
+.mm {
+    margin-top: 30px !important;
+}
+
+.advert {
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    top: 220px;
+    right: 0px;
+    background-color: wheat;
+    height: 55%;
+    width: 40%;
+}
+.horizontal-advert {
+    background-color: wheat;
+    height: 150px;
+    width: 100%;
+}
+
+.fill-btn {
+    background-color: var(--title-color) !important;
+    color: var(--first-color) !important;
+}
+
+.degree-color {
+    background-color: var(--degree-color);
+}
+.semester p{
+    text-align: center;
+    padding: 8px;
+    color: var(--first-color);
+}
+.semester{
+    text-align: left;
+    background-color: var(--title-color);
+    width: 17%;
+    border-radius: 20px 0px 20px 0px;
 }
 
 
@@ -868,33 +1014,99 @@ tbody :nth-child(even) {
 
 
 
+/* DARK MODE==========================> */
 
+.nav-bg-dark {
+    background-color: rgb(22, 21, 21);
+    box-shadow: 1px 1px 60px rgba(39, 38, 38, 0.856);
+}
 
+.main-background {
+    /* position: absolute;
+    height: 100vh; */
+    background-color: var(--first-color);
+}
 
+.main-background-dark {
+    /* position: absolute;
+    height: 100vh; */
+    background-color: var(--text-color);
+}
 
+.select-box-dark {
+    background-color: rgb(29, 28, 28);
+}
 
+.select-box-dark:hover {
+    background-color: var(--title-color);
+    color: var(--first-color);
+    transition: ease-in-out 0.3s;
+}
 
+.search-box-dark input:focus {
+    background: transparent;
+    color: var(--first-color);
+}
 
+.search-box-dark input {
+    text-align: center;
+    right: 20px;
+    background: transparent;
+    color: var(--first-color);
+    border-radius: 20px 0px 20px 0px;
+}
 
+.reg-form-dark:focus input {
+    background: transparent;
+    color: var(--first-color);
+    filter: none;
+}
 
+.reg-form-dark input {
+    margin: 5px 10px;
+    border-radius: 8px;
+    padding: 9px;
+    background: transparent;
+    color: var(--first-color);
+    border: 1px solid #dddada;
+    font-family: var(--body-font);
+}
 
-
-
-
-
-
-
-
-
-/* @media (min-width: 380px) and (max-width: 768px) {
-    .vid video {
-        position: absolute;
-        top: 0px;
-        left: -80px;
-        width: 50%;
-        opacity: 0.1;
-    }
+/* Change Autocomplete styles in Chrome*/
+/* 
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+textarea:-webkit-autofill, 
+textarea:-webkit-autofill:hover,
+ textarea:-webkit-autofill:focus, 
+ select:-webkit-autofill, 
+ select:-webkit-autofill:hover, 
+ select:-webkit-autofill:focus {
+    border:1px solid #dddada;
+    -webkit-text-fill-color:  var(--first-color);
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .main-page-box {
         height: 80vh;
@@ -924,7 +1136,6 @@ tbody :nth-child(even) {
         background-color: rgb(0, 0, 0);
         height: 80vh;
     }
-    
     .vid video {
         position: absolute;
         top: 0px;
@@ -934,16 +1145,68 @@ tbody :nth-child(even) {
         opacity: 0.1;
         object-fit: cover;
     }
-    /* .vid video {
+    .why-img {
+        width: 30%;
+    }
+    .info-box {
+        text-align: center;
+    }
+    .head-title {
+        font-size: 35px;
+    }
+    .select-shape {
+        width: 100%;
+        height: 100%;
+    }
+    .d-select-shape {
+        width: 100%;
+        height: 100%;
+    }
+    .download-select-shape {
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .search input {
+        width: 80%;
+    }
+    .search-box input, .search-box a {
         position: absolute;
-        top: 0px;
-        left: -80px;
-        width: 350%;
-        max-width: 300%;
-        opacity: 0.1;
-        object-fit: cover;
-    } */
+    }
+    .search-box input {
+        text-align: center;
+        right: 40px;
+    }
+    .search-box a {
+        right: 20px;
+    }
+    .row :nth-child(2) {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .mm {
+        margin-top: 10px !important;
+    }
+    .advert {
+        position: initial;
+        background-color: wheat;
+        height: 150px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .selection-title {
+        margin-top: 90px;
+    }
+    .btn-contain {
+        position: absolute;
+        top: 200px;
+        left: 160px;
+    }
+    .semester{
+        width: 50%;
+    }
 }
+
 @media (min-width: 768px) and (max-width: 2624px) {
     .slide-page {
         padding-top: 330px;
