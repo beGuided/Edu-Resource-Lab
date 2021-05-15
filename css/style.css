@@ -603,32 +603,6 @@ tbody :nth-child(even) {
     position: absolute;
 }
 
-@media print {
-    header {
-        display: none;
-    }
-    .table-section button, .return-btn, .p-box input {
-        display: none;
-    }
-    #return-btn {
-        display: none;
-    }
-    .passport {
-        border: none;
-    }
-    .course-item input {
-        font-size: 14px;
-        background-color: transparent;
-        margin: 2px 1px;
-        border-radius: 8px;
-        text-transform: uppercase;
-        padding: 5px;
-        border: 1px solid transparent;
-        font-family: var(--body-font);
-        text-align: center;
-    }
-}
-
 .contain-bg {
     background-color: k rgba(0, 0, 0, 0.301);
 }
@@ -644,7 +618,9 @@ tbody :nth-child(even) {
 /* Home page css */
 
 .logo {
-    width: 50px;
+    width: 70px;
+    top: 1px;
+    /* position: absolute; */
 }
 
 .vid {
@@ -859,7 +835,7 @@ tbody :nth-child(even) {
 }
 
 .info-box p {
-    color: var(--body-color);
+    color: #949494;
 }
 
 .heading-box p {
@@ -877,7 +853,7 @@ tbody :nth-child(even) {
 }
 
 .why-title {
-    color: var(--title-color);
+    color: var(--title-color) !important;
 }
 
 .search input {
@@ -920,24 +896,27 @@ tbody :nth-child(even) {
 .select-box {
     background-color: white;
 }
+
 .select-shape {
     width: 50%;
     height: 100%;
 }
-.select-shape p{
+
+.select-shape p {
     font-size: inherit;
 }
+
 .d-select-shape {
     width: 80%;
     height: 100%;
 }
-.download-select-shape{
-}
+
 .select-shape, .d-select-shape, .download-select-shape {
     border-radius: 8px;
-    background-color: rgb(248, 246, 246);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     margin: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
     box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.151);
     cursor: pointer;
 }
@@ -969,16 +948,22 @@ tbody :nth-child(even) {
 .advert {
     position: absolute;
     border-radius: 20px 0px 0px 20px;
-    top: 220px;
+    top: 180px;
     right: 0px;
     background-color: wheat;
     height: 55%;
     width: 40%;
 }
+
 .horizontal-advert {
+    overflow: hidden;
     background-color: wheat;
-    height: 150px;
+    height: 300px;
     width: 100%;
+}
+
+.ad-box img {
+    height: 100%;
 }
 
 .fill-btn {
@@ -989,32 +974,133 @@ tbody :nth-child(even) {
 .degree-color {
     background-color: var(--degree-color);
 }
-.semester p{
+
+.semester p {
     text-align: center;
     padding: 8px;
     color: var(--first-color);
 }
-.semester{
+
+.semester {
     text-align: left;
     background-color: var(--title-color);
     width: 17%;
     border-radius: 20px 0px 20px 0px;
 }
 
+#row-m {
+    margin-bottom: 50px;
+}
 
+.mode-toggle {
+    width: 20px;
+}
 
+.mode-toggle-hide {
+    display: none;
+}
 
+.available {
+    background-color: #f0eaea;
+}
 
+.av-img img {
+    width: 75px;
+}
 
+.av :nth-child(2) img {
+    margin-left: -150px;
+}
 
+.av :nth-child(1) img {
+    width: 110px;
+}
 
+.av-title {
+    text-align: center;
+}
 
+.av-title h4 {
+    color: var(--title-color);
+}
 
+.av-title p {
+    color: #949494;
+}
 
+.av {
+    text-align: center;
+    align-items: center;
+}
 
+.av-contain {
+    text-align: center;
+    align-items: center;
+}
 
+/* FOOTER=====================================> */
+
+.footer-bg {
+    padding: 20px 0px;
+    max-width: 100% !important;
+    background-color: #f0eaea;
+}
+
+.footer-title {
+    color: var(--title-color);
+    margin-top: 50px;
+}
+
+.footer-title h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-contents {
+    color: #949494;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-social a img, .footer-social h6 {
+    display: inline;
+    width: 6%;
+}
+
+.footer-social {
+    margin-top: -15px;
+}
+
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: #949494;
+}
+
+.footer-links a:hover, .phone a:hover, .e-mail a:hover {
+    color: var(--support-color);
+    transition: ease-in-out 0.2s;
+}
+
+.phone a, .e-mail a {
+    display: block;
+    text-decoration: none;
+    color: #949494;
+}
+
+.phone a, .e-mail a {
+    margin: -10px;
+}
+
+.phone h6, .e-mail h6, .footer-social h6 {
+    color: var(--title-color);
+}
 
 /* DARK MODE==========================> */
+
+.home-page-text {
+    color: #ece8e8;
+}
 
 .nav-bg-dark {
     background-color: rgb(22, 21, 21);
@@ -1022,14 +1108,10 @@ tbody :nth-child(even) {
 }
 
 .main-background {
-    /* position: absolute;
-    height: 100vh; */
     background-color: var(--first-color);
 }
 
 .main-background-dark {
-    /* position: absolute;
-    height: 100vh; */
     background-color: var(--text-color);
 }
 
@@ -1072,40 +1154,9 @@ tbody :nth-child(even) {
     font-family: var(--body-font);
 }
 
-/* Change Autocomplete styles in Chrome*/
-/* 
-input:-webkit-autofill, 
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-textarea:-webkit-autofill, 
-textarea:-webkit-autofill:hover,
- textarea:-webkit-autofill:focus, 
- select:-webkit-autofill, 
- select:-webkit-autofill:hover, 
- select:-webkit-autofill:focus {
-    border:1px solid #dddada;
-    -webkit-text-fill-color:  var(--first-color);
-    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
-    transition: background-color 5000s ease-in-out 0s;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-bg-dark {
+    background-color: rgb(29, 28, 28);
+}
 
 @media screen and (max-width: 768px) {
     .main-page-box {
@@ -1152,7 +1203,8 @@ textarea:-webkit-autofill:hover,
         text-align: center;
     }
     .head-title {
-        font-size: 35px;
+        font-size: 30px;
+        text-align: center;
     }
     .select-shape {
         width: 100%;
@@ -1162,9 +1214,8 @@ textarea:-webkit-autofill:hover,
         width: 100%;
         height: 100%;
     }
-    .download-select-shape {
-        height: 100%;
-        margin-bottom: 0px;
+    #row-m {
+        margin-bottom: 50px;
     }
     .search input {
         width: 80%;
@@ -1193,7 +1244,6 @@ textarea:-webkit-autofill:hover,
         width: 100%;
         border-radius: 0px;
     }
-    
     .selection-title {
         margin-top: 90px;
     }
@@ -1202,8 +1252,23 @@ textarea:-webkit-autofill:hover,
         top: 200px;
         left: 160px;
     }
-    .semester{
+    .semester {
         width: 50%;
+    }
+    .av :nth-child(2) img {
+        margin: auto;
+    }
+    .horizontal-advert {
+        overflow: hidden;
+        background-color: wheat;
+        height: 150px;
+        width: 100%;
+    }
+    .advert-big{
+        display: none;
+    }
+    .ad-box img {
+        width: 100%;
     }
 }
 
@@ -1220,4 +1285,45 @@ textarea:-webkit-autofill:hover,
         opacity: 0.1;
         object-fit: cover;
     }
+    .advert-sm{
+        display: none;
+    }
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    .table-section button, .return-btn, .p-box input {
+        display: none;
+    }
+    #return-btn {
+        display: none;
+    }
+    .passport {
+        border: none;
+    }
+    .course-item input {
+        font-size: 14px;
+        background-color: transparent;
+        margin: 2px 1px;
+        border-radius: 8px;
+        text-transform: uppercase;
+        padding: 5px;
+        border: 1px solid transparent;
+        font-family: var(--body-font);
+        text-align: center;
+    }
+    .main-background-dark {
+        background-color: var(--first-color) !important;
+    }
+    footer {
+        display: none;
+    }
+    /* Change Autocomplete styles in Chrome*/
+    /* input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+        border:none;
+        -webkit-fill-color:white ;
+        -webkit-text-fill-color: var(--text-color);
+    } */
 }
