@@ -17,17 +17,45 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./user.php">
+            <a class="nav-link" href="./users.php">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
           </li>
+<!--          <li class="nav-item dropdown">-->
+<!--                <a class="nav-link" href="javscript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                  <i class="material-icons">notifications</i>-->
+<!--                  <p class="">-->
+<!--                    Some Actions-->
+<!--                  </p>-->
+<!--                </a>-->
+<!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Mike John responded to your email</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">You have 5 new tasks</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">You're now friend with Andrew</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Another Notification</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Another One</a>-->
+<!--                </div>-->
+<!--              </li>-->
           <li class="nav-item ">
-            <a class="nav-link" href="./tables.php">
+            <a class="nav-link" href="./class_materials.php">
               <i class="material-icons">content_paste</i>
-              <p>Table List</p>
+              <p>Class Materials</p>
             </a>
           </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="./past_question.php">
+                    <i class="material-icons">content_paste</i>
+                    <p>Past questions </p>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="./department.php">
+                    <i class="material-icons">library_books</i>
+                    <p>Departments</p>
+                </a>
+            </li>
+
           <li class="nav-item ">
             <a class="nav-link" href="./typography.php">
               <i class="material-icons">library_books</i>
@@ -41,6 +69,21 @@
               <p>Notifications</p>
             </a>
           </li>
+<!--          <li class="nav-item dropdown">-->
+<!--                <a class="nav-link" href="javscript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                  <i class="material-icons">notifications</i>-->
+<!--                  <p class="">-->
+<!--                    Some Actions-->
+<!--                  </p>-->
+<!--                </a>-->
+<!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Mike John responded to your email</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">You have 5 new tasks</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">You're now friend with Andrew</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Another Notification</a>-->
+<!--                  <a class="dropdown-item" href="javascript:void(0)">Another One</a>-->
+<!--                </div>-->
+<!--              </li>-->
        
         </ul>
       </div>

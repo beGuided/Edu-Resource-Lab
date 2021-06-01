@@ -5,7 +5,7 @@
 
 <body class="dark-edition">
   <div class="wrapper ">
-    <!-- Sidebar  --> 
+    <!-- Sidebar  -->
   <?php include "includes/sidebar.php"?>
 
   <!--End  Sidebar  -->
@@ -13,7 +13,7 @@
     <div class="main-panel">
 
       <!-- Navbar -->
-  
+
     <?php include "includes/admin_navbar.php"?>
       <!-- End Navbar -->
       <div class="content">
@@ -61,7 +61,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
+
+                      <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
                           <label class="bmd-label-floating">Adress</label>
@@ -130,7 +131,7 @@
 <?php include "includes/admin_footer.php"?>
 
 <!--   footer  end-->
-      
+
 </body>
 
 </html>

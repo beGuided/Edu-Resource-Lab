@@ -871,6 +871,7 @@ tbody :nth-child(even) {
 
 .search-box a {
     right: 0px;
+    width:50px;
     border-radius: 20px 0px 20px 0px;
 }
 
