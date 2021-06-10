@@ -35,16 +35,18 @@ class Question extends Db_object {
 
     public static function first_semester($question_dept_id, $question_level, $question_type,$question_semester){
         global $database;
-        $sql = "SELECT * FROM past_question 
-                WHERE question_dept_id = '$question_dept_id' 
+        $sql = "SELECT * FROM past_question
+                WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level'
-                AND question_type='$question_type' 
+                AND question_type='$question_type'
                 AND question_semester='$question_semester' ";
 
-//        $search_query = mysqli_query($connection, $query);
+
 //        $sql = "SELECT * FROM " . self::$db_table;
-//        $sql .= " WHERE question_dept_id = " . $database->escape_string($question_dept_id);
-//        $sql .= " AND question_level = " . $database->escape_string($question_level);
+//        $sql .= " WHERE question_dept_id = " . $database->escape_string('{$question_dept_id}') ;
+//        $sql .= " AND question_level = " . $database->escape_string('$question_level');
+//        $sql .= " AND question_type = " . $database->escape_string($question_type);
+//        $sql .= " AND question_semester = ". $database->escape_string($question_semester) ;
         return self::find_by_query($sql);
 
     }
@@ -55,7 +57,7 @@ class Question extends Db_object {
                 WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level' 
                 AND question_type='$question_type' 
-                AND NOT question_semester='$question_semester'  ";
+                AND NOT question_semester='$question_semester' ";
         return self::find_by_query($sql);
 
     }

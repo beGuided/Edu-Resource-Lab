@@ -182,7 +182,7 @@ $question_by_Test_second= Question::question_by_Test_second($dept_title, $dept_l
 
 
                     <div id="row-m" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
-                        <?php foreach ($second_semester as $question):?>
+                        <?php foreach ($question_by_Test_second as $question):?>
                         <div class="container text-center select-contain">
                             <a href="../www.<?php echo $question->question_link?>">
                                 <div id="select--box4" class="select-box download-select-shape">
