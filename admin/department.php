@@ -70,8 +70,8 @@
                                         <td><?php echo $dept->id?></td>
                                         <td><?php echo $dept->dept_title?>
                                             <div class="actions_link">
-                                                <a  href="delete_department.php?id=<?php echo $dept->id?>">Delete</a>
-                                                <a href="delete_comment.php?id=<?php echo $dept->id?>">Edit</a>
+                                                <a class="text-primary" href="delete.php?id=<?php echo $dept->id?>&class=Department&link=department.php">Delete</a>
+                                                <a class="text-primary" href="edit_department.php?id=<?php echo $dept->id?>">Edit</a>
 
                                             </div>
                                         </td>

@@ -13,8 +13,12 @@
     <div class="main-panel">
 
       <!-- Navbar -->
+<?php    $user = User::find_all();
 
-    <?php include "includes/admin_navbar.php"?>
+?>
+
+
+        <?php include "includes/admin_navbar.php"?>
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
@@ -127,6 +131,29 @@
           </div>
         </div>
       </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label class="bmd-label-floating">Company (disabled)</label>
+                        <input type="text" class="form-control" disabled>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label class="bmd-label-floating">Username</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="bmd-label-floating">Email address</label>
+                        <input type="email" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
     <!--   footer  start-->
 <?php include "includes/admin_footer.php"?>
 

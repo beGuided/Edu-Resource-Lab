@@ -10,6 +10,7 @@
             <span class="navbar-toggler-icon icon-bar"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end">
+
             <form class="navbar-form">
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
@@ -22,7 +23,7 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="javascript:void(0)">
-                  <i class="material-icons">dashboard</i>
+                    <a href="logout.php"><button class="btn-success">log out</button></a>
                   <p class="d-lg-none d-md-block">
                     Stats
                   </p>
