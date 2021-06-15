@@ -68,7 +68,7 @@ $four_h='400 level';
 
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
                     <div class="container text-center select-contain">
-                        <a href="year1-download-materials.php?id=<?php echo $dept_id?>&level=<?php echo $hundred?>">
+                        <a href="year1-download-materials.php?id=<?php echo $dept_title?>&level=<?php echo $hundred?>">
                             <div id="select--box" class="select-box select-shape">
                                 <p class="text-center">Year 1 <br> STUDENT </p>
                             </div>
@@ -78,7 +78,7 @@ $four_h='400 level';
 
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
                     <div class="container text-center select-contain">
-                        <a href="year1-download-materials.php?id=<?php echo $dept_id?>&level=<?php echo $two_h?>">
+                        <a href="year1-download-materials.php?id=<?php echo $dept_title?>&level=<?php echo $two_h?>">
                             <div id="select--box1" class="select-box select-shape">
                                 <p class="text-center">Year 2 <br> STUDENT </p>
                             </div>
@@ -92,7 +92,7 @@ $four_h='400 level';
             <div class="row rowy text-center mm">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
                     <div class="container text-center select-contain">
-                        <a href="year1-download-materials.php?id=<?php echo $dept_id?>&level=<?php echo $three_h?>">
+                        <a href="year1-download-materials.php?id=<?php echo $dept_title?>&level=<?php echo $three_h?>">
                             <div id="select--box2" class="select-box select-shape">
                                 <p class="text-center">Year 3 <br> STUDENT </p>
                             </div>
@@ -101,7 +101,7 @@ $four_h='400 level';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
                     <div class="container text-center select-contain">
-                        <a href="year1-download-materials.php?id=<?php echo $dept_id?>&level=<?php echo $four_h?>">
+                        <a href="year1-download-materials.php?id=<?php echo $dept_title?>&level=<?php echo $four_h?>">
                             <div id="select--box3" class="select-box select-shape">
                                 <p class="text-center">Year 4 <br> STUDENT </p>
                             </div>

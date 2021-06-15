@@ -79,8 +79,8 @@
                     <div class="container">
                         <div class="container text-center p-3 t-head">
 
-                            <img class="img-fluid logo-size logo-l" src="/assets/images/FCET.png" alt="">
-                            <img class="img-fluid logo-size logo-r" src="/assets/images/uniben.png" alt="">
+                            <img class="img-fluid logo-size logo-l" src="./assets/images/FCET.png" alt="">
+                            <img class="img-fluid logo-size logo-r" src="./assets/images/uniben.png" alt="">
                             <div class=" message-m">
                                 <h5 class="sl-font m-0 p-0">FEDERAL COLLEGE OF EDUCATION (TECHNICAL) AKOKA</h5>
                                 <h5 class="sl-font">IN AFFILIATION WITH THE UNIVERSITY OF BENIN</h5>

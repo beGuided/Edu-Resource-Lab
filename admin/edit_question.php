@@ -11,7 +11,9 @@ if(empty($_GET['id'])) {
     redirect("past_question.php");
 }
 
-    $department = Department::find_all();
+$department = Degree_Department::find_all();
+$nce_department = Nce_Department::find_all();
+
     $question = Question::find_by_id($_GET['id']);
 
     if (isset($_POST['Update'])) {
@@ -21,11 +23,13 @@ if(empty($_GET['id'])) {
             $question->question_link = $_POST['question_link'];
             $question->question_level = $_POST['question_level'];
             $question->question_semester= $_POST['question_semester'];
+            $question->question_school= $_POST['question_school'];
             $question->question_type= $_POST['question_type'];
             $question->questionl_image= 'image';
 
             $question->save();
         }
+        redirect('past_question.php');
     }
 
 
@@ -72,17 +76,19 @@ if(empty($_GET['id'])) {
                                 </div>
 
                                 <div class="form-group my-5">
-                                    <label class="bmd-label-floating" for="question_department">Question department </label>
+                                    <label for="question_department">Question department (for degree or nce)</label>
                                     <div>
-                                        <select name="question_department" class="form-control text-secondary" >
-                                            <option value="" selected>Select Department</option>
+                                        <select name="question_department"   class="form-control text-secondary">
+                                            <option value="" selected> select degree dept</option>
                                             <?php foreach ($department as $dept):?>
-                                                <option value="<?php echo $dept->id?>"><?php echo $dept->dept_title?> </option>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
+                                            <?php endforeach; ?>
+                                            <option value=""><hr/></option>
+                                            <?php foreach ($nce_department as $dept):?>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
                                             <?php endforeach; ?>
                                         </select>
                                     </div>
-
-                                    <!--                                    <input type="text" name="material_department" class="form-control">-->
                                 </div>
                                 <div class="form-group my-5">
                                     <label class="bmd-label-floating" for="question_level">Question level </label>
@@ -110,16 +116,21 @@ if(empty($_GET['id'])) {
                                     <label class="bmd-label-floating"  for="question_type">Question Type</label>
                                     <div>
                                         <select name="question_type" class="form-control text-secondary" >
-                                            <option value="" selected>Select Semester</option>
+                                            <option value="" selected>Select Type</option>
                                             <option value="Exam">Exam </option>
                                             <option value="Test">Test </option>
                                         </select>
                                     </div>
                                 </div>
-                                <!--                                <div class="form-group">-->
-                                <!--                                    <label for="user_image">Material image</label>-->
-                                <!--                                    <input type="file" name="material_image">-->
-                                <!--                                </div>-->
+                                <div class="form-group my-5">
+                                    <label for="question_school">Question School</label>
+                                    <div>
+                                        <select name="question_school">
+                                            <option value="Degree">Degree </option>
+                                            <option value="Nce">Nce </option>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="form-group my-5">
                                     <input type="submit" name="Update" value="Update" class="btn-primary pull-right">
                                 </div>

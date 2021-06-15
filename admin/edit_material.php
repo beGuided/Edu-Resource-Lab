@@ -11,7 +11,8 @@ if(empty($_GET['id'])) {
     redirect("class_material.php");
 }
 
-    $department = Department::find_all();
+    $department = Degree_Department::find_all();
+$nce_department = Nce_Department::find_all();
     $material = Material::find_by_id($_GET['id']);
 
     if (isset($_POST['Update'])) {
@@ -21,10 +22,11 @@ if(empty($_GET['id'])) {
             $material->material_link = $_POST['material_link'];
             $material->material_level = $_POST['material_level'];
             $material->material_semester= $_POST['material_semester'];
+            $material->material_school= $_POST['material_school'];
             $material->material_image= 'image';
-
             $material->save();
         }
+        redirect('class_materials.php');
     }
 
 
@@ -71,20 +73,26 @@ if(empty($_GET['id'])) {
                                 </div>
 
                                 <div class="form-group my-5">
-                                    <label class="bmd-label-floating" for="material_department">Material department </label>
+                                    <label for="material_department">Material department ( degree or nce)</label>
                                     <div>
-                                        <select name="material_department" class="form-control text-secondary"  >
-                                            <option value="" selected> Select Department</option>
+                                        <select name="material_department"   class="form-control text-secondary">
+                                            <option value="" selected> select degree dept</option>
                                             <?php foreach ($department as $dept):?>
-                                                <option value="<?php echo $dept->id?>"><?php echo $dept->dept_title?> </option>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
+                                            <?php endforeach; ?>
+                                            <option value=""><hr/></option>
+                                            <?php foreach ($nce_department as $dept):?>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
                                             <?php endforeach; ?>
                                         </select>
                                     </div>
 
-                                    <!--                                    <input type="text" name="material_department" class="form-control">-->
                                 </div>
                                 <div class="form-group my-5">
-                                    <label class="bmd-label-floating" for="material_level">Material level (select multiple by holding clt)</label>
+
+
+                                <div class="form-group my-5">
+                                    <label class="bmd-label-floating" for="material_level">Material level (select</label>
 
                                         <select name="material_level"  class="form-control text-secondary" >
                                             <option value="" selected>Select Level</option>
@@ -107,10 +115,16 @@ if(empty($_GET['id'])) {
                                     </div>
 
                                 </div>
-                                <!--                                <div class="form-group">-->
-                                <!--                                    <label for="user_image">Material image</label>-->
-                                <!--                                    <input type="file" name="material_image">-->
-                                <!--                                </div>-->
+                                <div class="form-group my-5">
+                                    <label for="material_school">Material School</label>
+                                    <div>
+                                        <select name="material_school">
+                                            <option value="Degree">Degree </option>
+                                            <option value="Nce">Nce </option>
+                                        </select>
+                                    </div>
+                                </div>
+
                                 <div class="form-group my-5">
                                     <input type="submit" name="Update" value="Update" class="btn-primary pull-right">
                                 </div>

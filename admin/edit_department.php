@@ -11,7 +11,7 @@ if(empty($_GET['id'])) {
     redirect("class_material.php");
 }
 
-    $department = Department::find_by_id($_GET['id']);
+    $department = Degree_Department::find_by_id($_GET['id']);
 
     if (isset($_POST['Update'])) {
 
