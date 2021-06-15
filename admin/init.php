@@ -17,7 +17,8 @@ require_once("includes/material.php");
 require_once("includes/user.php");
 require_once("includes/session.php");
 require_once("includes/question.php");
-require_once("includes/department.php");
+require_once("includes/degree_department.php");
+require_once("includes/nce_department.php");
 
 
 

@@ -3,24 +3,26 @@
 class Material extends Db_object {
 
     protected static $db_table = "class_material";
-    protected static $db_table_field = array( 'material_title', 'material_link','material_dept_id','material_level','material_semester','material_image');
+    protected static $db_table_field = array( 'material_title', 'material_link','material_dept_id','material_level','material_semester','material_school','material_image');
     public $id;
     public $material_title;
     public $material_link;
     public $material_dept_id;
     public $material_level;
     public $material_semester;
+    public $material_school;
   public $material_image;
 
 
-    public static function create_material($material_dept_id,  $material_title='',$material_link='',  $material_level='',$material_semester='',$material_image=''){
-        if(!empty($material_dept_id) && !empty($material_title) && !empty($material_link)&& !empty($material_level)&& !empty($material_semester)&& !empty($material_image)){
+    public static function create_material($material_dept_id,  $material_title='',$material_link='',  $material_level='',$material_semester='',$material_school='',$material_image=''){
+        if(!empty($material_dept_id) && !empty($material_title) && !empty($material_link)&& !empty($material_school)&& !empty($material_level)&& !empty($material_semester)&& !empty($material_image)){
             $material = new Material();
             $material->material_dept_id= $material_dept_id;
             $material->material_link =$material_link;
             $material->material_title =$material_title;
             $material->material_level =$material_level;
             $material->material_semester =$material_semester;
+            $material->material_school =$material_school;
             $material->material_image =$material_image;
 
             return $material;
@@ -55,12 +57,29 @@ class Material extends Db_object {
             AND material_level='$material_level' 
             AND NOT material_semester = '{$resource_semester}' " ;
 
-
         return self::find_by_query($sql);
 
     }
 
+    public static function find_nce_school($material_school)
+    {
+        global $database;
 
+        $sql = "SELECT * FROM class_material 
+            WHERE material_school = '$material_school'" ;
+
+        return self::find_by_query($sql);
+
+    }
+    public static function find_degree_school($material_school)
+    {
+        global $database;
+        $sql = "SELECT * FROM class_material 
+            WHERE material_school = '$material_school'" ;
+
+        return self::find_by_query($sql);
+
+    }
 
 
 

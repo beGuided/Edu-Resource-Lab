@@ -14,9 +14,9 @@ if(empty($_GET['id'])) {
     redirect("index.php");
 
 }
-
-$dept_level=$_GET['level'];
+//$dept_title=$_GET['title'];
 $dept_title=$_GET['id'];
+$dept_level=$_GET['level'];
 $resource_semester='first';
 $Exam_type='Exam';
 $Test_type='Test';

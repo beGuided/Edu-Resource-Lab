@@ -7,7 +7,9 @@ redirect("login.php");
 }
 ?>
 <?php
-$departments = Department::find_all();
+$department = Degree_Department::find_all();
+$nce_department = Nce_Department::find_all();
+
 
 
 if (isset($_POST['create'])) {
@@ -18,9 +20,10 @@ if (isset($_POST['create'])) {
     $question_level = trim($_POST['question_level']);
     $question_type= trim($_POST['question_type']);
     $question_semester=trim($_POST['question_semester']);
+    $question_school=trim($_POST['question_school']);
     $question_image='image';
 
-    $new_question = Question::create_Question($question_dept_id, $question_title, $question_link,$question_level,$question_type, $question_semester,$question_image);
+    $new_question = Question::create_Question($question_dept_id, $question_title, $question_link,$question_level,$question_type, $question_semester,$question_school,$question_image);
     if ($new_question && $new_question->save()) {
         redirect("add_question.php");
     } else {
@@ -33,6 +36,7 @@ if (isset($_POST['create'])) {
     $question_level = '';
     $question_type='';
     $question_semester='';
+    $question_school='';
     $question_image='image';
 
 }
@@ -78,17 +82,22 @@ if (isset($_POST['create'])) {
                                 </div>
 
                                 <div class="form-group my-5">
-                                    <label class="bmd-label-floating"  for="question_department">Question Department </label>
+                                    <label for="question_department">Question department (for degree or nce)</label>
                                     <div>
                                         <select name="question_department"   class="form-control text-secondary">
-                                            <?php foreach ($departments as $dept):?>
-                                                <option value="<?php echo $dept->id?>"><?php echo $dept->dept_title?> </option>
+                                            <option value="" selected> select degree dept</option>
+                                            <?php foreach ($department as $dept):?>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
+                                            <?php endforeach; ?>
+                                            <option value=""><hr/></option>
+                                            <?php foreach ($nce_department as $dept):?>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
                                             <?php endforeach; ?>
                                         </select>
                                     </div>
-
-<!--                             <input type="text" name="material_department" class="form-control">-->
                                 </div>
+
+
                                 <div class="form-group">
                                     <label class="bmd-label-floating"  for="question_level">Question level </label>
                                     <div>
@@ -121,10 +130,15 @@ if (isset($_POST['create'])) {
 
 <!--                                    <input type="text" name="material_semester" class="form-control">-->
                                 </div>
-<!--                                <div class="form-group">-->
-<!--                                    <label for="user_image">Material image</label>-->
-<!--                                    <input type="file" name="material_image">-->
-<!--                                </div>-->
+                             <div class="form-group my-5">
+                                    <label for="question_school">Question School</label>
+                                    <div>
+                                        <select name="question_school">
+                                            <option value="Degree">Degree </option>
+                                            <option value="Nce">Nce </option>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="form-group">
                                     <input type="submit" name="create" value="create" class="btn-primary pull-right">
                                 </div>

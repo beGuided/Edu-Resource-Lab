@@ -1,8 +1,7 @@
 <?php
 
-class Department extends Db_object {
-
-    protected static $db_table = "department";
+class Degree_Department extends Db_object {
+    protected static $db_table = 'degree_department';
     protected static $db_table_field = array( 'dept_title');
     public $id;
     public $dept_title;
@@ -11,12 +10,12 @@ class Department extends Db_object {
     public static function create_department(  $dept_title=''){
 
         if(!empty($dept_title)){
-            $department = new Department();
+            $department = new Degree_Department();
 //            $department->id= (int)$id;
             $department->dept_title =$dept_title;
             return $department;
         }else{
-            return false;
+            return 'pls check the info and try again';
         }
 
     }

@@ -7,14 +7,10 @@ redirect("login.php");
 }
 ?>
 <?php
-$department = Department::find_all();
+$department = Degree_Department::find_all();
+$nce_department = Nce_Department::find_all();
 
-//function collect_multiple_data()
-//{
-//    foreach ($_POST['material_department'] as $selectedOption)
-//        return $selectedOption . ",";
-//
-//}
+
 if (isset($_POST['create'])) {
 
     $material_dept_id=trim($_POST['material_department']);
@@ -22,9 +18,10 @@ if (isset($_POST['create'])) {
     $material_link = trim($_POST['material_link']);
     $material_level = trim($_POST['material_level']);
     $material_semester=trim($_POST['material_semester']);
+    $material_school=trim($_POST['material_school']);
     $material_image='image';
 
-    $new_material = Material::create_material($material_dept_id, $material_title, $material_link,$material_level,$material_semester,$material_image);
+    $new_material = Material::create_material($material_dept_id, $material_title, $material_link,$material_level,$material_semester,$material_school,$material_image);
     if ($new_material && $new_material->save()) {
         redirect("add_material.php");
     } else {
@@ -36,6 +33,7 @@ if (isset($_POST['create'])) {
     $material_link ='';
     $material_level = '';
     $material_semester='';
+    $material_school='';
     $material_image='';
 
 }
@@ -81,19 +79,23 @@ if (isset($_POST['create'])) {
                                 </div>
 
                                 <div class="form-group my-5">
-                                    <label for="material_department">Material department </label>
+                                    <label for="material_department">Material department (for degree or nce)</label>
                                     <div>
                                         <select name="material_department"   class="form-control text-secondary">
+                                            <option value="" selected> select degree dept</option>
                                             <?php foreach ($department as $dept):?>
-                                                <option value="<?php echo $dept->id?>"><?php echo $dept->dept_title?> </option>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
+                                            <?php endforeach; ?>
+                                            <option value=""><hr/></option>
+                                            <?php foreach ($nce_department as $dept):?>
+                                                <option value="<?php echo $dept->dept_title?>"><?php echo $dept->dept_title?> </option>
                                             <?php endforeach; ?>
                                         </select>
                                     </div>
-
-<!--                                    <input type="text" name="material_department" class="form-control">-->
                                 </div>
+
                                 <div class="form-group my-5">
-                                    <label for="material_level">Material level (select multiple by holding clt)</label>
+                                    <label for="material_level">Material level ()</label>
                                     <div>
                                         <select name="material_level"  class="form-control text-secondary">
                                                 <option value="100 level">100 </option>
@@ -112,13 +114,17 @@ if (isset($_POST['create'])) {
                                             <option value="Second">Second </option>
                                         </select>
                                     </div>
-
-<!--                                    <input type="text" name="material_semester" class="form-control">-->
                                 </div>
-<!--                                <div class="form-group">-->
-<!--                                    <label for="user_image">Material image</label>-->
-<!--                                    <input type="file" name="material_image">-->
-<!--                                </div>-->
+                                <div class="form-group my-5">
+                                    <label for="material_school">Material School</label>
+                                    <div>
+                                        <select name="material_school">
+                                            <option value="Degree">Degree </option>
+                                            <option value="Nce">Nce </option>
+                                        </select>
+                                    </div>
+                                </div>
+
                                 <div class="form-group">
                                     <input type="submit" name="create" value="create" class="btn-primary pull-right">
                                 </div>

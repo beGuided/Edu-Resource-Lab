@@ -13,10 +13,10 @@
 
 <section>
     <?php
-    if(empty($_GET['id'])){
-        $department = Degree_Department::find_all();
 
-    }
+        $nce_department = Nce_Department::find_all();
+
+
     ?>
     <div class="container-fluid">
 
@@ -58,8 +58,8 @@
             <div class="row text-center">
 
                 <?php
-                if($department) {
-                    foreach ($department as $dept):
+                if($nce_department) {
+                    foreach ($nce_department as $dept):
                         ?>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
                             <div class="container text-center select-contain">
