@@ -38,11 +38,11 @@
                         <h5>Quick Links</h5>
                     </div>
                     <div class="footer-links mt-4">
-                        <a href="">Terms of Use</a>
                         <a href="">Privacy Policy</a>
-                        <a href="course_form.php">Generate courseform</a>
-                        <a href="course-materials.php">Download course materials</a>
-                        <a href="">Marketplace</a>
+                        <a href="nce_course_form.php">NCE Courseform</a>
+                        <a href="course_form.php">DEGREE Courseform</a>
+                        <a href="course-materials.php">NCE course materials</a>
+                        <a href="course-materials.php">DEGREE course materials</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -64,7 +64,7 @@
                         <div class="e-mail mb-4">
                             <h6 class="mb-4">E-mail:</h6>
                             <a href="mailto:info@eduresourselab.com">
-                                <p>info@eduresourselab.com</p>
+                                <p>eduresourselab@gmail.com</p>
                             </a>
                         </div>
 
@@ -84,6 +84,7 @@
 <script src="js/jquery-1.7.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/nav.js"></script>
 
 
 

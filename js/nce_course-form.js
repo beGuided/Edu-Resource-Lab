@@ -9,21 +9,13 @@ document.getElementById("onit").addEventListener("click", () => {
     var b = formIdd.namedItem("level").value;
     var c = formIdd.namedItem("Newname").value;
     var d = formIdd.namedItem("dept").value;
-    var e = formIdd.namedItem("course").value;
-    var f = formIdd.namedItem("email").value;
-    var g = formIdd.namedItem("sex").value;
-    var h = formIdd.namedItem("number").value;
-    var i = formIdd.namedItem("semester").value;
-    var j = formIdd.namedItem("session").value;
+    var i = formIdd.namedItem("semester").value + ', ';
+    var j = formIdd.namedItem("session").value + ' ACADEMIC SESSION';
  
     matric.innerText = a;
     yLevel.innerText = b;
     fullName.innerText = c;
     dept.innerText = d;
-    course.innerText = e;
-    yEmail.innerText = f;
-    sex.innerText = g;
-    phoneNo.innerText = h;
     semester.innerText = i;
     session.innerText = j;
  
@@ -35,12 +27,8 @@ document.getElementById("onit").addEventListener("click", () => {
  const fullName = document.getElementById("namee");
  const matric = document.getElementById("matric");
  const dept = document.getElementById("dept");
- const phoneNo = document.getElementById("number");
- const sex = document.getElementById("sex");
- const yEmail = document.getElementById("yemail");
  const session = document.getElementById("session");
  const semester = document.getElementById("semester");
- const course = document.getElementById("course");
  const yLevel = document.getElementById("level");
  
  
@@ -76,7 +64,7 @@ document.getElementById("onit").addEventListener("click", () => {
           + '  <input required class="input-text title" type="text" name="title"placeholder="Course title" class="input-text unit">'
           + ' <input required class="input-text" type="text" name="unit"placeholder="Unit" class="input-text">'
           + '  <input required class="input-text remark" type="text" name="remark" placeholder="Remark" class="input-text">'
-          + ' <button id="remove-course" class=" btn btn-danger course-reg-btn"><p>x</p></button></div>'
+          + ' <button id="remove-course" class=" btn btn-danger n-course-reg-btn"><p>-</p></button></div>'
        );
     });
  
@@ -85,6 +73,7 @@ document.getElementById("onit").addEventListener("click", () => {
     });
     $('body').on('click', '#print-out', function (e) {
        $('div').removeClass('course-item');
+       $('div').removeClass('n-course-item');
        // $('button').removeClass('course-reg-btn btn btn-danger');
        printOut();
     });

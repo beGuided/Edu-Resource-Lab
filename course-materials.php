@@ -30,10 +30,10 @@
                     <a href="#" class="btn btn-warning"><img class="mode-toggle" src="./assets/images/search.png" alt=""></a>
                 </div>
             </div>
-            <div class="btn-contain">
-                <a href="course-materials.php" class="btn btn-outline-success">
-                    < PREVIOUS PAGE</a>
-            </div>
+<!--            <div class="btn-contain">-->
+<!--                <a href="course-materials.php" class="btn btn-outline-success">-->
+<!--                    < PREVIOUS PAGE</a>-->
+<!--            </div>-->
         </div>
 
         <div class=" container pt-5">
@@ -97,7 +97,8 @@
 
 
 <?php  require_once ("includes/footer.php")?>
-<script src="js/department-darkmode.js"></script>
+<!--<script src="js/course-material-darkmode.js"></script>-->
+<script src="js/department-darmode.js"></script>
 
 </body>
 </body>

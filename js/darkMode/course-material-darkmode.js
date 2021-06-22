@@ -5,6 +5,8 @@
 function darkToggle() {
   document.getElementById("nav--bg").classList.add("nav-bg-dark");
   document.getElementById("main-bg").classList.add("main-background-dark");
+  document.getElementById("main-bgg").classList.add("nav-bg-dark");
+  document.getElementById("main-bggg").classList.add("nav-bg-dark");
   document.getElementById("search--box").classList.add("search-box-dark");
   document.getElementById("select--box").classList.add("select-box-dark");
   document.getElementById("select--box1").classList.add("select-box-dark");
@@ -22,6 +24,8 @@ function darkToggle() {
 function removeDarkToggle() {
   document.getElementById("nav--bg").classList.remove("nav-bg-dark");
   document.getElementById("main-bg").classList.remove("main-background-dark");
+  document.getElementById("main-bgg").classList.remove("nav-bg-dark");
+  document.getElementById("main-bggg").classList.remove("nav-bg-dark");
   document.getElementById("search--box").classList.remove("search-box-dark");
   document.getElementById("select--box").classList.remove("select-box-dark");
   document.getElementById("select--box1").classList.remove("select-box-dark");

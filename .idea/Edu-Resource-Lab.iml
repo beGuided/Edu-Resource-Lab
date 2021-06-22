@@ -4,5 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="website" />
+    <orderEntry type="module" module-name="cms" />
+    <orderEntry type="module" module-name="php oop pratice" />
+    <orderEntry type="module" module-name="templatemo_556_catalog_z(1)" />
   </component>
 </module>

@@ -1,0 +1,7 @@
+RewriteEngine on
+
+#RewriteRule ^(index|course-materials|course_form|about|contact|)$ $1.php [NC,L]
+
+#RewriteRule ^year1-degree-materials/(\d+)$ year1-degree-materials.php?id=$1 [NC,L]
+
+#RewriteRule ^year1-download-materials/(\w+|\d+)$ year1-download-materials.php?id=$1 [NC,L]

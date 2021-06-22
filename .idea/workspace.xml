@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e0a511c-cb74-45ee-a151-ca33fc7b8663" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/pictures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/cms.iml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/cms.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources.local.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources/8178a171-30ba-4ff7-95cf-a7184273cc88.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/dataSources/8178a171-30ba-4ff7-95cf-a7184273cc88.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/deployment.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/php.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/php.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/webServers.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/about.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/about.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/Categories.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/Categories.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/comment.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/comment.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/functions.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/functions.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_footer.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_footer.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_header.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_header.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_navigation.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/Admin_navigation.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/add_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/add_user.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/add_user.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/edit_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/edit_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/edit_user.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/update_categories.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/update_categories.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_comment.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_comment.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_users.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/includes/view_all_users.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/index.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/index.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/posts.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/posts.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/profile.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/profile.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/users.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/admin/users.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/blog.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/blog.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/database/cms(1).sql" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/database/cms(1).sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/dickson pic.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/dickson2.jpg" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/realdeal.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/slide1.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/slide2.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/slider1.jfif" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/slider2.jfif" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/images/slider3.jfif" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/db.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/db.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/footer.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/footer.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/header.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/header.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/login.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/login.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/logout.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/logout.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/navigation.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/navigation.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/sidebar.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/widget.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/includes/widget.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/index.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/index.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/Mental_shift_blog/registration.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/Mental_shift_blog/registration.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/.gitignore" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources.local.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources/23d0fee2-3f8c-4f4d-a6fd-cc57ac0662e0.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources/23d0fee2-3f8c-4f4d-a6fd-cc57ac0662e0.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources/23d0fee2-3f8c-4f4d-a6fd-cc57ac0662e0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/dataSources/23d0fee2-3f8c-4f4d-a6fd-cc57ac0662e0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/website.iml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/website.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/about.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/about.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/categories.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/categories.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/comment.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/comment.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap-rtl.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap-rtl.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap-rtl.min.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap.min.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/plugins/morris.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/plugins/morris.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/sb-admin-rtl.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/sb-admin-rtl.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/sb-admin.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/css/sb-admin.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/core.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/icons.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/larger.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/list.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/mixins.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/path.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/spinning.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/spinning.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/stacked.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/variables.less" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/functions.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/functions.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_blog_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_blog_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_podcast.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_podcast.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_user.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/add_user.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_footer.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_footer.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_header.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_header.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_nav.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/admin_nav.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_blog_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_blog_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_podcast.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_podcast.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_user.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/update_categories.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/update_categories.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_comment.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_comment.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_users.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_all_users.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_blog_post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_blog_post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_podcast.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/includes/view_podcast.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/index.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/index.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/bootstrap.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/bootstrap.min.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/jquery.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/jquery.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/flot-data.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/flot-data.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris-data.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris-data.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris.min.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/morris.min.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/raphael.min.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/plugins/morris/raphael.min.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/script.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/js/script.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/posts.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/posts.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/users.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/admin/users.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/icons/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/images/blog/IMG_20181115_153004 - Adejoh Joshua.jpg" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/images/blog/dylan-gillis-KdeqA3aTnBY-unsplash-1@3x.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/images/blog/dylan-gillis-KdeqA3aTnBY-unsplash@2x.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/images/slider/slide1.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/assets/images/slider/slide2.png" beforeDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/blog.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/blog.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/cls" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/cls" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/database/catholic_con.sql" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/database/catholic_con.sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/blog_post_details.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/blog_post_details.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/db.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/db.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/footer.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/footer.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/function.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/function.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/header.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/header.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/login.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/login.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/logout.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/logout.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/nav.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/nav.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/post_details.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/post_details.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/slider.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/slider.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/subscribe.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/includes/subscribe.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/index.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/index.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/js/script.js" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/js/script.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/login.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/login.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/post.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/post.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/search.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/search.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/catholic-conversation/videos.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/catholic-conversation/videos.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/php oop pratice.iml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/php oop pratice.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/admin/includes/comment.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/admin/includes/comment.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/admin/photos.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/admin/photos.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/includes/header.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/includes/header.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/index.php" beforeDir="false" afterPath="$USER_HOME$/htdoct-folder/gallery-system-cms/index.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/htdoct-folder/gallery-system-cms/photo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Edu-Resource-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Edu-Resource-Lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/js/core/bootstrap-material-design.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/assets/js/core/bootstrap-material-design.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-form.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/course-form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/faceebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/faceebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/videos/Writing Background Video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/videos/Zoom Office Video Background III – High Quality Virtual Backgrounds for Online Meetings.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/videos/videoplayback (3).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-materials.php" beforeDir="false" afterPath="$PROJECT_DIR$/course-materials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/course-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/course-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/about-page-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/about-page-darkmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/course-form-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/course-form-darkmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/course-material-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/course-material-darkmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/department-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/department-darkmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/download-page-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/download-page-darkmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode/home-page-darkmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode/home-page-darkmode.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/htdoct-folder/Mental_shift_blog" />
+  </component>
+  <component name="ProjectId" id="1u4J6IrzjNJAS1o4EjDVLpDjhU4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/htdoct-folder/Edu-Resource-Lab-update" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e0a511c-cb74-45ee-a151-ca33fc7b8663" name="Default Changelist" comment="" />
+      <created>1623918847914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623918847914</updated>
+      <workItem from="1623918874003" duration="1658000" />
+      <workItem from="1623920924153" duration="2176000" />
+      <workItem from="1623923555666" duration="1052000" />
+      <workItem from="1623926316211" duration="1746000" />
+      <workItem from="1623928161314" duration="746000" />
+      <workItem from="1623933971922" duration="1155000" />
+      <workItem from="1623939990982" duration="308000" />
+      <workItem from="1623950597652" duration="1471000" />
+      <workItem from="1624118030461" duration="942000" />
+      <workItem from="1624137396501" duration="1235000" />
+      <workItem from="1624139570437" duration="1783000" />
+      <workItem from="1624141418101" duration="1814000" />
+      <workItem from="1624143262034" duration="1809000" />
+      <workItem from="1624200145807" duration="1701000" />
+      <workItem from="1624202028600" duration="1786000" />
+      <workItem from="1624203847952" duration="626000" />
+      <workItem from="1624337531772" duration="1247000" />
+      <workItem from="1624360594948" duration="66000" />
+      <workItem from="1624361569315" duration="1332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
