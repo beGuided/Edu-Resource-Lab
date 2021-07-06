@@ -7,45 +7,24 @@
 
     <!-- nav section end -->
 </header>
-    <div class="container custom-m2">
 
-        <!-- search -->
-        <div class="container search">
-            <div id="search--box" class="search-box">
-                <input type="search" name="" id="input" class="form-control" placeholder="Looking for?" title="">
-                <a href="#" class="btn btn-warning"><img class="mode-toggle" src="./assets/images/search.png" alt=""></a>
-            </div>
-        </div>
-    </div>
 
-    <div class=" container pt-2">
-        <div class=" selection-title ">
-            <h3>Reach out to Us</h3>
-        </div>
-    </div>
- <!-- Advert -->
- <div class="horizontal-advert my-5 text-center advert-big">
-       <a href="advert.php" target="_blank" rel="noopener noreferrer">
-            <div class="ad-box">
-                <img class="img-fluid" src="./assets/images/advert-space.png" alt="">
-            </div>
-       </a>
-    </div>
-    <!-- Advert-sm -->
-    <div class="horizontal-advert my-5 text-center advert-sm">
-       <a href="advert.php" target="_blank" rel="noopener noreferrer">
-            <div class="ad-box">
-                <img class="img-fluid" src="./assets/images/advert-space-sm.png" alt="">
-            </div>
-       </a>
-    </div>
 
-    <div class="container-fluid">
+    <section>
+    <div class="container-fluid custom-m">
         <div class="container">
             <div class="container row upp">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="about-img img-fluid">
+                        <img src="./assets/images/ad1.png" alt="">
+                    </div>
+                </div>
+
+
+
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class=" selection-title">
-                         <h3>Start a chat with Us</h3>
+                         <h3>Promote your Business</h3>
                     </div>
                     <div class="container row contact-contain">
 
@@ -72,22 +51,21 @@
                 </div>
 
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="about-img img-fluid">
-                        <img src="./assets/images/contact.png" alt="">
-                    </div>
-                </div>
+                
             </div>
             <div class="custom-m"></div>
         </div>
     </div>
+            <div class="custom-m"></div>
+        
+    </section>
 
-
-
-
-<?php  require_once ("includes/footer.php")?>
+<?php  require_once("includes/footer.php")?>
 <script src="js/darkMode/contact-page-darkmode.js"></script>
 
+<script src="js/nce_course-form.js"></script>
+
 </body>
+
 
 </html>

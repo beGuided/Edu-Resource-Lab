@@ -7,9 +7,10 @@
     <!-- nav section end -->
 </header>
 
-
     </section>
 <?php
+
+//$question=new Question();
 if(empty($_GET['id'])) {
     redirect("index.php");
 
@@ -56,10 +57,10 @@ $question_by_Test_second= Question::question_by_Test_second($dept_title, $dept_l
                         <a href="#" class="btn btn-warning"><img class="mode-toggle" src="./assets/images/search.png" alt=""></a>
                     </div>
                 </div>
-                <div class="btn-contain">
-                    <a href="year1-degree-materials.php" class="btn btn-outline-success">
-                        < PREVIOUS PAGE</a>
-                </div>
+<!--                <div class="btn-contain">-->
+<!--                    <a href="year1-degree-materials.php" class="btn btn-outline-success">-->
+<!--                        < PREVIOUS PAGE</a>-->
+<!--                </div>-->
             </div>
 
             <div class=" container pt-5">

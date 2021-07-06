@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Edu-Resource-Lab.iml" filepath="$PROJECT_DIR$/.idea/Edu-Resource-Lab.iml" />
+      <module fileurl="file://$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/cms.iml" filepath="$USER_HOME$/htdoct-folder/Mental_shift_blog/.idea/cms.iml" />
+      <module fileurl="file://$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/php oop pratice.iml" filepath="$USER_HOME$/htdoct-folder/gallery-system-cms/.idea/php oop pratice.iml" />
+      <module fileurl="file://$USER_HOME$/htdoct-folder/website1/.idea/templatemo_556_catalog_z(1).iml" filepath="$USER_HOME$/htdoct-folder/website1/.idea/templatemo_556_catalog_z(1).iml" />
+      <module fileurl="file://$USER_HOME$/htdoct-folder/catholic-conversation/.idea/website.iml" filepath="$USER_HOME$/htdoct-folder/catholic-conversation/.idea/website.iml" />
     </modules>
   </component>
 </project>

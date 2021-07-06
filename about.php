@@ -25,35 +25,35 @@
 
     <!-- Advert -->
     <div class="horizontal-advert my-5 text-center advert-big">
-       <a href="" target="_blank" rel="noopener noreferrer">
+       <a href="advert.php" target="_blank" rel="noopener noreferrer">
             <div class="ad-box">
-                <img class="img-fluid" src="/assets/images/advert-space.png" alt="">
+                <img class="img-fluid" src="./assets/images/advert-space.png" alt="">
             </div>
        </a>
     </div>
     <!-- Advert-sm -->
     <div class="horizontal-advert my-5 text-center advert-sm">
-       <a href="" target="_blank" rel="noopener noreferrer">
+       <a href="advert.php" target="_blank" rel="noopener noreferrer">
             <div class="ad-box">
-                <img class="img-fluid" src="/assets/images/advert-space-sm.png" alt="">
+                <img class="img-fluid" src="./assets/images/advert-space-sm.png" alt="">
             </div>
        </a>
     </div>
 
     <div class="container-fluid">
         <div class="container">
-            <div class="container row">
+            <div class="container row about-content">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info-box">
-                    <p>
-                    <h4 class="text-success">Edu Resource lab</h4> is resources for student in each levels in the the
-                    higher institution, course
-                    materials and esources will be uploaded and updated regularly to meet student needs, and
-                    resourcse.. links to site and materials tha twill help studet better understand and prepar for
-                    course will also be made availaibele..</p>
+                    <p class="">
+                    <h4>Edu Resource lab</h4> is an online academic resource platform for students in different levels and departments
+                     in their various higher institution. <br> <br> Edu Resource Lab has amazing features for higher institution which above others are Course
+                    materials and resources, Course form generation and many more. <br> <br> Edu Resource Lab is currently available to a few Academic institutions
+                     which we upload and update course materials regularly to meet student needs.
+                    </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="about-img img-fluid">
-                        <img src="/assets/images/about.png" alt="">
+                        <img src="./assets/images/about.png" alt="">
                     </div>
                 </div>
             </div>

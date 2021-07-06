@@ -1,3 +1,21 @@
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+}
+@font-face {
+    font-family: poppinsregular;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppinsblack;
+    src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: poppinsxbold;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
 @font-face {
     font-family: poppinsregular;
     src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
@@ -141,9 +159,12 @@ img {
 /*================= menu media query ====================*/
 
 nav .nav-link:hover {
-    background-color: var(--title-color);
+    /* background-color: var(--title-color); */
+    color: var(--support-color);
     border-radius: 5px;
-    color: var(--first-color);
+    border-bottom: 1px solid var(--support-color);
+    border-top: 1px solid var(--support-color);
+    border-color: 1px solid var(--first-color);
 }
 
 nav .nav-link, a {
@@ -155,7 +176,26 @@ nav .nav-link, a {
     background-color: var(--first-color);
     box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.129);
 }
+.course-form-link-sub{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+nav .collapse ul li:hover .course-form-link-sub{
+    display: block;
+  }
+  .navbar-toggler-disabled{
+      display: none !important;
+      transition: .3s ease-in-out;
 
+  }
+  .navbar-toggler{
+      transition: .3s ease-in-out;
+      display: inline;
+      align-items: center;
+      text-align: center;
+  }
 /* .nav--link, .nav--logo, .nav--toggle{
     color: var(--text-color);
     font-weight: 3.25rem;
@@ -172,6 +212,55 @@ nav .nav-link, a {
 .show-menu{
     top: var(--header-height);
 } */
+
+.contact-contain{
+    margin-top: 50px !important;
+}
+.contact-box{
+    margin: 15px;
+    width: 60% !important;
+    box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.129);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.contact-box:hover{
+    padding: 20px;
+    background-color: var(--title-color);
+}
+
+.contact-img{
+    text-align: center;
+    align-items: center;
+}
+.contact-img img{
+    width: 50%;
+    align-items: center;
+}
+
+.contact-box a {
+    font-family: var(--body-font);
+    color: var(--support-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact-box a h6{
+    transition: 0.2s ease-in-out;
+    padding: 10px 0px;
+}
+.contact-box a h6:hover {
+    color: var(--support-color);
+    padding: 10px 0px;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--support-color);
+    border-top: 1px solid var(--support-color);
+    border-color: 1px solid var(--first-color);
+}
+.about-content{
+    color: #949494 !important; 
+    display: none;
+}
+
 
 /*=======Home Section============*/
 
@@ -273,14 +362,21 @@ nav .nav-link, a {
 
 .page[size="A4"] {
     width: 21cm;
-    height: 29.7cm;
+    height: 27.94cm;
     overflow: hidden;
 }
 
 .height {
     height: 50%;
 }
-
+.mat,.name-input{
+    position: absolute;
+    left: 150px;
+    top: 180px;
+}
+.name-input{
+    top: 220px;
+}
 .logo-l {
     position: absolute;
     left: 0px;
@@ -300,6 +396,16 @@ nav .nav-link, a {
     height: 180px;
     right: 50px;
     top: 150px;
+    border: #707070 solid 1px;
+    border-radius: 9px;
+}
+.n-passport {
+    position: absolute;
+    overflow: hidden;
+    width: 145px;
+    height: 180px;
+    right: 30px;
+    top: 70px;
     border: #707070 solid 1px;
     border-radius: 9px;
 }
@@ -369,6 +475,10 @@ tbody :nth-child(even) {
     margin-top: 180px;
 }
 
+.custom-n {
+    margin-top: 97px;
+}
+
 .custom-m2 {
     margin-top: 130px;
 }
@@ -380,9 +490,27 @@ tbody :nth-child(even) {
 
 .course-reg-btn {
     font-family: var(--body-font);
-    margin: 2px 5px;
+    margin: 0px 5px;
     width: 30px;
-    height: 34px;
+    height: 25px;
+}
+.course-reg-btn p{
+    font-family: var(--body-font);
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+.n-course-reg-btn p{
+    font-family: var(--body-font);
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+.n-course-reg-btn {
+    font-family: var(--body-font);
+    margin: 0px 5px;
+    width: 30px;
+    height: 20px;
 }
 
 .course-reg-btn-hidden {
@@ -412,11 +540,18 @@ tbody :nth-child(even) {
     font-family: var(--body-font);
 }
 
-.size-f {
+.size-d,.size-n {
+    text-transform: uppercase;
+}
+.size-f, .size-d {
     font-size: 14px;
     padding: 15px;
     font-family: var(--body-font);
     font-weight: normal;
+}
+.size-n {
+    font-size: 15px;
+    font-family: var(--body-font);
 }
 
 .info-section h6 {
@@ -425,6 +560,19 @@ tbody :nth-child(even) {
     font-size: 15px;
     text-transform: uppercase;
 }
+.total-unit{
+    margin-top: 10px;
+    position: relative;
+}
+.total-unit span{
+    font-size: 13px;
+    position: absolute;
+    right: 35px;
+}
+.total-unit span input{
+    width: 15%;
+}
+
 
 .course-reg input {
     margin: 0px 5px;
@@ -472,15 +620,20 @@ tbody :nth-child(even) {
 
 /* course registration input */
 
-.course-item-remove input {
-    font-size: 14px;
+.course-item-remove input {    
+    font-size: 12px;
+    background-color: transparent;
+    margin: 0px 1px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 4px;
+    border: 1px solid #dddada;
+    font-family: var(--body-font);
+    text-align: center;
+}
+.n-course-item-remove input {
     border: 1px solid transparent;
     background-color: transparent;
-    margin: 2px 1px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    padding: 5px;
-    font-family: var(--body-font);
     text-align: center;
 }
 
@@ -515,13 +668,25 @@ tbody :nth-child(even) {
     text-align: left;
 }
 
+.total-unit span input,
 .course-item input {
-    font-size: 14px;
+    font-size: 12px;
     background-color: transparent;
-    margin: 2px 1px;
+    margin: 0px 1px;
     border-radius: 8px;
     text-transform: uppercase;
     padding: 5px;
+    border: 1px solid #dddada;
+    font-family: var(--body-font);
+    text-align: center;
+}
+.n-course-item input {
+    font-size: 12px;
+    background-color: transparent;
+    margin: 0px 1px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 4px;
     border: 1px solid #dddada;
     font-family: var(--body-font);
     text-align: center;
@@ -628,15 +793,17 @@ tbody :nth-child(even) {
     overflow: hidden;
     position: absolute;
     width: 100%;
-    top: 0px;
-    z-index: -10;
-    background-color: rgb(0, 0, 0);
+        z-index: -100;
+        top: 0px;
+    box-shadow: 1px 1px 90px rgba(0, 0, 0, 0.301);
+    background-color: #454545;
 }
 
 .vid video {
     position: absolute;
     top: 0px;
-    left: -80px;
+        z-index: -100;
+        left: -80px;
     width: 120%;
     height: calc(100vh) !important;
     opacity: 0.1;
@@ -650,9 +817,13 @@ tbody :nth-child(even) {
     object-fit: fill;
 } */
 
+.main-page {
+    z-index: 100;
+    display: nonel;
+}
 .main-page-box {
     height: 100vh;
-    background: 000;
+    background: transparent;
     overflow: hidden;
 }
 
@@ -664,27 +835,32 @@ tbody :nth-child(even) {
 
 /* slide animation */
 
+.text-1 a, .text-2 a, .text-3 a{
+}
 .text-1, .text-2, .text-3 {
     position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    opacity: 0;
+        opacity: 0;
     animation-delay: .1s;
     animation-timing-function: ease-in-out;
-    animation-duration: 60s;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
 }
 
 @keyframes text-1 {
     0%, 5.3% {
         opacity: 0;
+        left: -3000px;
     }
-    5.3%, 18% {
+    5.3%, 18.5% {
         opacity: 1;
+        left: 0px;
     }
     20.33%, 100% {
+        left: -4000px;
         opacity: 0;
     }
 }
@@ -692,24 +868,30 @@ tbody :nth-child(even) {
 @keyframes text-2 {
     0%, 20.33% {
         opacity: 0;
+        left: -4000px;
     }
-    25.34%, 55.29% {
+    25.34%, 45.29% {
         opacity: 1;
+        left: 0px;
     }
-    57.66%, 100% {
+    49.66%, 100% {
         opacity: 0;
+        left: -4000px;
     }
 }
 
 @keyframes text-3 {
-    0%, 57.66% {
+    0%, 49.66% {
         opacity: 0;
+        left: -3000px;
     }
-    58.96%, 93.62% {
+    53.96%, 83.62% {
         opacity: 1;
+        left: 0px;
     }
-    95.66%, 100% {
+    85.66%, 100% {
         opacity: 0;
+        left: -4000px;
     }
 }
 
@@ -728,6 +910,7 @@ tbody :nth-child(even) {
 .img-1, .img-2, .img-3 {
     position: absolute;
     opacity: 0.08;
+    z-index: -10;
     /* animation-delay: .1s; */
     animation-timing-function: ease-in-out;
     animation-duration: 47s;
@@ -833,8 +1016,7 @@ tbody :nth-child(even) {
 .info-box {
     text-align: left;
 }
-
-.info-box p {
+.info-box p{
     color: #949494;
 }
 
@@ -948,17 +1130,16 @@ tbody :nth-child(even) {
 
 .advert {
     position: absolute;
+    background-color: wheat;
     border-radius: 20px 0px 0px 20px;
     top: 180px;
     right: 0px;
-    background-color: wheat;
     height: 55%;
     width: 40%;
 }
 
 .horizontal-advert {
     overflow: hidden;
-    background-color: wheat;
     height: 300px;
     width: 100%;
 }
@@ -1038,7 +1219,9 @@ tbody :nth-child(even) {
     text-align: center;
     align-items: center;
 }
-
+.download-folder img{
+    width: 50px;
+}
 /* FOOTER=====================================> */
 
 .footer-bg {
@@ -1160,16 +1343,39 @@ tbody :nth-child(even) {
 }
 
 @media screen and (max-width: 768px) {
+	.main-page-btn a{
+		margin : 10px !important;
+	}
+	
+	
+	.logo{
+	width : 30px
+	}
+    .contact-contain{
+        margin:auto !important;
+    }
+    .contact-box{
+        width: 100% !important;
+        margin: auto;
+    }
+    .upp{
+        text-align: center;
+        margin-top: -100px !important;
+    }
     .main-page-box {
-        height: 80vh;
+        height: 100vh !important; 
         overflow: hidden;
+        background-color: violetj;
     }
     .reg-form input {
         display: block;
         width: 90%;
     }
     .slide-page {
-        padding-top: 280px;
+        padding-top: 190px;
+    }
+    .slide-page h1{
+        font-size: 25px;
     }
     .subtitle {
         font-size: 20px;
@@ -1185,16 +1391,18 @@ tbody :nth-child(even) {
         text-align: center;
     }
     .vid {
-        background-color: rgb(0, 0, 0);
-        height: 80vh;
+        background-color: #454545;
+        height: 100vh;
+        z-index: -100;
     }
     .vid video {
         position: absolute;
+        z-index: -100;
         top: 0px;
         left: -80px;
         width: 120%;
-        height: calc(100vh) !important;
-        opacity: 0.1;
+        height: calc(130vh) !important;
+        opacity: 0.7;
         object-fit: cover;
     }
     .why-img {
@@ -1204,7 +1412,7 @@ tbody :nth-child(even) {
         text-align: center;
     }
     .head-title {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
     .select-shape {
@@ -1261,7 +1469,6 @@ tbody :nth-child(even) {
     }
     .horizontal-advert {
         overflow: hidden;
-        background-color: wheat;
         height: 150px;
         width: 100%;
     }
@@ -1283,7 +1490,7 @@ tbody :nth-child(even) {
         left: -80px;
         width: 120%;
         height: calc(100vh) !important;
-        opacity: 0.1;
+        opacity: 0.7;
         object-fit: cover;
     }
     .advert-sm{
@@ -1304,19 +1511,52 @@ tbody :nth-child(even) {
     .passport {
         border: none;
     }
+    .n-passport {
+        border: none;
+    }
+    .total-unit span input{
+        text-decoration: solid;
+        font-weight: bold;
+    }
+    .total-unit span input,
     .course-item input {
-        font-size: 14px;
+        font-size: 12px;
         background-color: transparent;
-        margin: 2px 1px;
+        margin: 0px 1px;
         border-radius: 8px;
         text-transform: uppercase;
+        border: 0px solid transparent;
         padding: 5px;
-        border: 1px solid transparent;
+        font-family: var(--body-font);
+        text-align: center;
+    }
+    .n-course-item input {
+        font-size: 12px;
+        background-color: transparent;
+        margin: 0px 1px;
+        border-radius: 8px;
+        text-transform: uppercase;
+        padding: 4px;
+        border: 0px solid transparent;
+        font-family: var(--body-font);
+        text-align: center;
+    }
+    .course-item-remove input {    
+        font-size: 12px;
+        background-color: transparent;
+        margin: 0px 1px;
+        border-radius: 8px;
+        text-transform: uppercase;
+        padding: 4px;
+        border: 0px solid transparent;
         font-family: var(--body-font);
         text-align: center;
     }
     .main-background-dark {
         background-color: var(--first-color) !important;
+    }
+    .table table{
+        background-color: black;
     }
     footer {
         display: none;

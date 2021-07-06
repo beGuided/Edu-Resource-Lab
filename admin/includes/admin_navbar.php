@@ -23,7 +23,9 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="javascript:void(0)">
-                    <a href="logout.php"><button class="btn-success">log out</button></a>
+
+<!--                    //log out button-->
+                    <a href="logout"><button class="btn-success">log out</button></a>
                   <p class="d-lg-none d-md-block">
                     Stats
                   </p>

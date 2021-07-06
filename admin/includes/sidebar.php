@@ -5,19 +5,19 @@
 
         Tip 2: you can also add an image using data-image tag
         -->
-      <div class="logo"><a href="../index.php" class="simple-text logo-normal">
+      <div class="logo"><a href="../index" class="simple-text logo-normal">
           Creative Tim
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-            <a class="nav-link" href="./index.php">
+            <a class="nav-link" href="./index">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./users.php">
+            <a class="nav-link" href="./users">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
@@ -38,33 +38,33 @@
 <!--                </div>-->
 <!--              </li>-->
           <li class="nav-item ">
-            <a class="nav-link" href="./class_materials.php">
+            <a class="nav-link" href="./class_materials">
               <i class="material-icons">content_paste</i>
               <p>Class Materials</p>
             </a>
           </li>
             <li class="nav-item ">
-                <a class="nav-link" href="./past_question.php">
+                <a class="nav-link" href="./past_question">
                     <i class="material-icons">content_paste</i>
                     <p>Past questions </p>
                 </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="./department.php">
+                <a class="nav-link" href="./department">
                     <i class="material-icons">library_books</i>
                     <p>Departments</p>
                 </a>
             </li>
 
           <li class="nav-item ">
-            <a class="nav-link" href="./typography.php">
+            <a class="nav-link" href="./typography">
               <i class="material-icons">library_books</i>
               <p>Typography</p>
             </a>
           </li>
          
           <li class="nav-item ">
-            <a class="nav-link" href="./notifications.php">
+            <a class="nav-link" href="./notifications">
               <i class="material-icons">notifications</i>
               <p>Notifications</p>
             </a>

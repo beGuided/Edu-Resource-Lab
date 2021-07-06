@@ -30,10 +30,10 @@
                     <a href="#" class="btn btn-warning"><img class="mode-toggle" src="./assets/images/search.png" alt=""></a>
                 </div>
             </div>
-            <div class="btn-contain">
-                <a href="course-materials.php" class="btn btn-outline-success">
-                    < PREVIOUS PAGE</a>
-            </div>
+<!--            <div class="btn-contain">-->
+<!--                <a href="course-materials.php" class="btn btn-outline-success">-->
+<!--                    < PREVIOUS PAGE</a>-->
+<!--            </div>-->
         </div>
 
         <div class=" container pt-5">
@@ -63,7 +63,7 @@
                         ?>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
                             <div class="container text-center select-contain">
-                                <a href="year1-degree-materials.php?id=<?php echo $dept->id?>&title=<?php echo $dept->dept_title?>">
+                                <a href="degree-materials?id=<?php echo $dept->id?>&title=<?php echo $dept->dept_title?>">
                                     <div id="select--box1" class="select-box d-select-shape">
                                         <p class="text-center"><?php echo $dept->dept_title?><br> Department </p>
                                     </div>
@@ -97,7 +97,8 @@
 
 
 <?php  require_once ("includes/footer.php")?>
-<script src="js/department-darkmode.js"></script>
+<!--<script src="js/course-material-darkmode.js"></script>-->
+<script src="js/department-darmode.js"></script>
 
 </body>
 </body>
