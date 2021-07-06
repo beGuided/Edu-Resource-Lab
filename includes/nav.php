@@ -15,17 +15,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
                 <li class="nav-item ">
-                    <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="index">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.php">ABOUT</a>
+                    <a class="nav-link active" aria-current="page" href="about">ABOUT</a>
                 </li>
                 <li class="nav-item course-form-link">
                     <a class="nav-link active" aria-current="page" href="#">COURSE FORM ></a>
                     <div id="main-bgg" class="course-form-link-sub nav-bg px-4">
                     <ul>
-                        <li><a class="nav-link active" aria-current="page" href="nce_course_form.php">NCE </a></li>
-                        <li><a class="nav-link active" aria-current="page" href="course_form.php">DEGREE </a></li>
+                        <li><a class="nav-link active" aria-current="page" href="nce_course_form">NCE </a></li>
+                        <li><a class="nav-link active" aria-current="page" href="course_form">DEGREE </a></li>
                     </ul>
                     </div>
                 </li>
@@ -34,13 +34,13 @@
                         MATERIALS ></a>
                         <div id="main-bggg" class="course-form-link-sub nav-bg px-4">
                     <ul>
-                        <li><a class="nav-link active" aria-current="page" href="nce-course-materials.php">NCE </a></li>
-                        <li><a class="nav-link active" aria-current="page" href="course-materials.php">DEGREE </a></li>
+                        <li><a class="nav-link active" aria-current="page" href="nce-course-materials">NCE </a></li>
+                        <li><a class="nav-link active" aria-current="page" href="course-materials">DEGREE </a></li>
                     </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.php">CONTACT</a>
+                    <a class="nav-link active" aria-current="page" href="contact">CONTACT</a>
                 </li>
                 <li class="nav-item">
 

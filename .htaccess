@@ -1,7 +1,13 @@
 RewriteEngine on
 
-#RewriteRule ^(index|course-materials|course_form|about|contact|)$ $1.php [NC,L]
+RewriteCond %{REQUEST_FILE} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#Alternatively
+#RewriteRule ^(index|course-materials|nce_course_form|course_form|about|contact|)$ $1.php [NC,L]
 
-#RewriteRule ^year1-degree-materials/(\d+)$ year1-degree-materials.php?id=$1 [NC,L]
 
-#RewriteRule ^year1-download-materials/(\w+|\d+)$ year1-download-materials.php?id=$1 [NC,L]
+#RewriteCond %{REQUEST_FILE} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^year1-degree-materials/([0-9]+)/([0-9a-zA-Z_-]+) year1-degree-materials.php?id=$1&title=$2 [NC,L]
+

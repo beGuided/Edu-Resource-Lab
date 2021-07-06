@@ -211,7 +211,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/htdoct-folder/Mental_shift_blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1u4J6IrzjNJAS1o4EjDVLpDjhU4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -254,6 +254,7 @@
       <workItem from="1624337531772" duration="1247000" />
       <workItem from="1624360594948" duration="66000" />
       <workItem from="1624361569315" duration="1332000" />
+      <workItem from="1624363096970" duration="437000" />
     </task>
     <servers />
   </component>

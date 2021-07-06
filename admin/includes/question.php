@@ -35,26 +35,51 @@ class Question extends Db_object {
     }
 
 
-    public static function first_semester($question_dept_id, $question_level, $question_type,$question_semester){
+
+    public function first_semester($question_dept_id, $question_level, $question_type,$question_semester){
         global $database;
+
+
+        $question_dept_id= $database->escape_string($question_dept_id);
+        $question_level= $database->escape_string($question_level);
+        $question_type= $database->escape_string($question_type);
+        $question_semester= $database->escape_string($question_semester);
+
+
+//
         $sql = "SELECT * FROM past_question
                 WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level'
                 AND question_type='$question_type'
                 AND question_semester='$question_semester' ";
 
+//        alternative from normal function
+
+        //        $this->question_dept_id=$question_dept_id;
+//        $this->question_level=$question_level;
+//        $this->question_type=$question_level;
+//        $this->question_semester=$question_semester;
+
 
 //        $sql = "SELECT * FROM " . self::$db_table;
-//        $sql .= " WHERE question_dept_id = " . $database->escape_string('{$question_dept_id}') ;
-//        $sql .= " AND question_level = " . $database->escape_string('$question_level');
-//        $sql .= " AND question_type = " . $database->escape_string($question_type);
-//        $sql .= " AND question_semester = ". $database->escape_string($question_semester) ;
+//        $sql .= " WHERE question_dept_id = {$question_dept_id}" ;
+//        $sql .= " AND question_level = {$question_level}";
+//        $sql .= " AND question_type = {$question_type}";
+//        $sql .= " AND question_semester = {$question_semester} ";
+
+
         return self::find_by_query($sql);
 
     }
 
     public static function second_semester($question_dept_id, $question_level,$question_type,$question_semester){
         global $database;
+
+        $question_dept_id= $database->escape_string($question_dept_id);
+        $question_level= $database->escape_string($question_level);
+        $question_type= $database->escape_string($question_type);
+        $question_semester= $database->escape_string($question_semester);
+
         $sql = "SELECT * FROM past_question 
                 WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level' 
@@ -66,7 +91,14 @@ class Question extends Db_object {
 
 
     public static function question_by_Test($question_dept_id, $question_level,$question_type,$question_semester){
+
         global $database;
+
+        $question_dept_id= $database->escape_string($question_dept_id);
+        $question_level= $database->escape_string($question_level);
+        $question_type= $database->escape_string($question_type);
+        $question_semester= $database->escape_string($question_semester);
+
         $sql = "SELECT * FROM past_question 
                 WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level' 
@@ -78,6 +110,12 @@ class Question extends Db_object {
 
     public static function question_by_Test_second($question_dept_id, $question_level,$question_type,$question_semester){
         global $database;
+
+        $question_dept_id= $database->escape_string($question_dept_id);
+        $question_level= $database->escape_string($question_level);
+        $question_type= $database->escape_string($question_type);
+        $question_semester= $database->escape_string($question_semester);
+
         $sql = "SELECT * FROM past_question 
                 WHERE question_dept_id = '$question_dept_id'
                 AND question_level='$question_level' 
