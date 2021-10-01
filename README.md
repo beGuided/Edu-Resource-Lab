@@ -8,11 +8,11 @@ links to site and materials tha twill help studet better understand and prepar f
 
  # site features
  
- ## CMS 
- ## Awesome Admin dashboard 
- ## Responsive ui
- ## Dark Mode
- ## Resources download
+ ### CMS 
+ ### Awesome Admin dashboard 
+ ### Responsive ui
+ ### Dark Mode
+ ### Resources download
  
 design done implementing .css flexbox, grid, media queries  and sass for front end,
 and then PHP and mysql for the backend and database ..
